@@ -29,17 +29,7 @@ The system interacts with the official PoliMillionaire API to retrieve questions
 
 ```
 NLP_PROJECT_WE_NEED_MORE_GPU.ipynb   # Main notebook
-millionaire_client.py                # Official quiz API client
-logs_naive/                          # S1 — naive baseline logs
-logs_naive_prompt_aware/             # S2 — category-aware logs
-logs_speech_naive_openai_whisper_small/   # S3.1 — Whisper small logs
-logs_speech_naive_normalized_answers_openai_whisper_large/  # S3.2 — Whisper large logs
-logs_rag_new_thresold_per_category/  # S4 — RAG logs
-logs_rag_new_thresold_per_category_test_set/  # S4 — RAG test set logs
-logs_s51/ ... logs_s56/              # S5 — Math strategy logs
-logs_s6_final_competition_setup/     # S6 — Final setup logs
-hf_models/                           # Cached HuggingFace model weights
-Heatmaps_Naive_Approach_With_Prompt/ # Saved evaluation plots
+millionaire_client.py                # Official quiz API client 
 analysis/math_fewshot_candidates.json  # Math few-shot examples
 ```
 
